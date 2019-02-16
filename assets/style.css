@@ -1,0 +1,65 @@
+body{
+    background-color:rgb(12, 12, 12)
+}
+h3{
+    font-family: 'Finger Paint', cursive;
+    color:black;
+}
+.card{
+    background-color:transparent;
+    /* display:flex; */
+    align-items: center!important;
+    text-shadow: -1px -1px blue;
+    color:whitesmoke;
+    /* max-height: 100%; */
+    border-top-color: white;
+    border-right-color: white;
+    border-right-style:solid;
+    border-top-style:solid;
+    /* padding-top: 30px; */
+    padding-bottom: 30px;
+}
+.card img{
+    max-width: 200px;
+    max-height: 200px;
+
+}
+img{
+    max-height: 12vh;
+    max-width: 12vw;
+}
+
+.button {
+    background-color: rgb(78, 78, 78); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+audio
+{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px #006773;
+-webkit-box-shadow:  2px 2px 4px 0px #006773;
+box-shadow: 2px 2px 4px 0px #006773;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
+
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.25);
+-moz-transform: scale(1.25);
+transform: scale(1.25);
+}
+
